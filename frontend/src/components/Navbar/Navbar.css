@@ -1,0 +1,59 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: #f5f5f5; /* Optional background color */
+}
+
+.navbar-left {
+    display: flex; /* Use flexbox for left alignment */
+    align-items: center; /* Center items vertically */
+}
+
+.navbar-left h1 {
+    font-size: 24px;
+    padding-right: 30px;
+    color: black;
+    cursor: pointer;
+}
+
+/* Remove underline from links */
+.navbar-left a,
+.navbar-right a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Ensure text color is consistent */
+}
+
+/* Styles for left section links */
+.navbar-left span {
+    cursor: pointer; /* Change cursor to pointer */
+    transition: 250ms;
+}
+
+/* Right section styles */
+.navbar-right {
+    display: flex; /* Use flexbox for right alignment */
+    align-items: center; /* Center items vertically */
+}
+
+.navbar-right .btn {
+    background-color: #f5f3f3;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 250ms;
+}
+
+.navbar-right .btn:hover {
+    background-color: #ebe9e9;
+    scale: 1.1;
+}
+
+.navbar-left span:hover {
+    scale: 1.1;
+}
